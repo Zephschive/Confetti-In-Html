@@ -1,0 +1,56 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+body
+{
+    background-color: black;
+}
+.but
+{
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+button
+{
+   
+    padding:10px 100px 10px 100px;
+    border: none;
+    border-radius: 2em;
+    background: transparent;
+    color: white;
+    border:2px solid greenyellow;
+    box-shadow: 1px 1px 50px 30px green ;
+    font-size: large;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+button:hover
+{
+    cursor: pointer;
+    background-color: greenyellow;
+    transition: 1s ease-in-out;
+    color: black;
+    
+}
+canvas
+{
+    width:2060px ;
+    height:1692px;
+    position: fixed; 
+    top: 0px; 
+    left: 0px; 
+    width: calc(100%); 
+    height: calc(100%); 
+    margin: 0px; 
+    padding: 0px; 
+   
+    pointer-events: none;
+}
